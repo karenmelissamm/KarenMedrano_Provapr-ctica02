@@ -7,6 +7,7 @@ import androidx.recyclerview.widget.RecyclerView
 class TasquesAdapter : RecyclerView.Adapter<TascaViewHolder>() {
 
     private var tasques = listOf<Tasca>()
+    private val onTascaClick: (Tasca) -> Unit
 
     fun setTasques(novesTasques: List<Tasca>) {
         tasques = novesTasques
@@ -23,4 +24,7 @@ class TasquesAdapter : RecyclerView.Adapter<TascaViewHolder>() {
         holder.renderitza(tasques[position])
     }
 
+
 }
+
+

@@ -8,6 +8,7 @@ import com.google.android.material.chip.ChipGroup
 import android.os.Bundle
 import android.view.View
 import androidx.recyclerview.widget.LinearLayoutManager
+import com.example.practica2.TasquesAdapter
 import com.google.android.material.chip.Chip
 
 class TasquesFragment : Fragment() {

@@ -45,6 +45,5 @@ app:singleSelection="true">
 
 
 <androidx.recyclerview.widget.RecyclerView
-    android:id=""
     android:clipToPadding="false"
     android:padding="8dp" />
